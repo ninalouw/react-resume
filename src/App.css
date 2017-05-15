@@ -2,26 +2,6 @@
   text-align: center;
 }
 
-/*.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
-
-.App-intro {
-  font-size: large;
-}*/
-
-/*@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}*/
 
 /*Styles for the Header component*/
 
@@ -140,4 +120,196 @@ box-shadow: 3px 2px 9px 1px rgba(209, 225, 247, 1);
 
 .fa-icon-footer:hover {
   opacity:0.4;
+}
+
+/*Styling for header sections of subpages*/
+/*Change these names*/
+.skills-header {
+  background-image: linear-gradient(-360deg, #393794, #3089bb);
+  width:100%;
+  height: 170px;
+  padding:15px;
+  margin-left:0 !important;
+  margin-right:0 !important;
+  position: relative;
+  margin: 0 auto;
+  /*padding-top: 6em;
+  padding-bottom: 6em;*/
+  min-height: 170px;
+}
+
+.skills-circle {
+  background-color: rgb(0, 188, 212);
+  opacity:0.8;
+  width:100px;
+  min-width:50px;
+  height:100px;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-0%,-50%);
+  /*border-radius: 50px;*/
+  -webkit-box-shadow: 3px 2px 9px 1px rgba(5,11,54,1);
+-moz-box-shadow: 3px 2px 9px 1px rgba(5,11,54,1);
+box-shadow: 3px 2px 9px 1px rgba(5,11,54,1);
+}
+
+
+@media (max-width: 32em) {
+.skills-header {
+display: none;
+}
+}
+
+.skills-h1 {
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  margin-top:36px;
+  padding-top:24px;
+  padding-left: 40px;
+  margin-left:auto;
+  margin-right:auto;
+  width:100%;
+  color: white;
+  font-weight: 400;
+  font-size:2rem;
+}
+
+
+/*Styling for About page*/
+.about-row-1{
+  display: flex;
+}
+
+.about-para {
+  font-family: 'Open Sans', sans-serif;
+  font-weight:400;
+  font-size: 1.2rem;
+  color: black;
+  text-align: left;
+  -webkit-box-shadow: 3px 2px 9px 1px rgba(251, 251, 254, 1);
+-moz-box-shadow: 3px 2px 9px 1px rgba(251, 251, 254, 1);
+box-shadow: 3px 2px 9px 1px rgba(251, 251, 254, 1);
+}
+
+.about-para-h3 {
+  font-family: 'Open Sans', serif;
+  text-align: center;
+  margin-left:auto;
+  margin-right:auto;
+  width:100%;
+  color: #020085;
+  font-weight: 400;
+  font-size: 1.8rem;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
+.coding-rectangle {
+  background-color: rgb(0, 188, 212);
+  height:250px;
+  width:100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top:20px;
+  -webkit-box-shadow: 3px 2px 9px 1px rgba(251, 251, 254, 1);
+-moz-box-shadow: 3px 2px 9px 1px rgba(251, 251, 254, 1);
+box-shadow: 3px 2px 9px 1px rgba(221, 221, 235, 1);
+}
+
+.education-h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight:bold;
+  text-align: center;
+  /*padding-left:40px;*/
+    padding-top:80px;
+  margin-left:auto;
+  margin-right:auto;
+  width:100%;
+  color: white;
+  font-size: 2.1rem;
+}
+
+.education-h3 {
+  font-family: 'Open Sans', serif;
+  text-align: left;
+  margin-left:auto;
+  margin-right:auto;
+  width:100%;
+  color: #070665;
+  font-weight: 400;
+  font-size: 1.6rem;
+  padding-left: 45px;
+}
+
+.education-para {
+  font-family: 'Open Sans', sans-serif;
+  font-weight:300;
+  font-size: 1.2rem;
+  color: black;
+  text-align: left;
+  padding-left: 50px;
+}
+
+/*Style for skills page*/
+.skills-content {
+  margin-left:20px;
+  margin-right:20px;
+}
+
+.skills-h2 {
+  font-family: 'Open Sans', sans-serif;
+  text-align: left;
+  margin-left:auto;
+  margin-right:auto;
+  width:100%;
+  color: black;
+  font-weight: 400;
+  font-size: 2rem;
+  margin-bottom: .4em;
+  line-height: 1.4em;
+  letter-spacing: .05em;
+}
+
+.skills-h5 {
+  margin-bottom: .4em;
+  line-height: 1.4em;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  color: #d45c54;
+  animation-delay: 1s;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: .1em;
+  font-size: 1.5em;
+}
+
+.skills-content-row {
+  margin-bottom:20px;
+  margin-top: 30px;
+}
+
+.github-btn-div {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: .4em;
+  margin-top: 25px;
+  border: 1px black solid;
+}
+
+.github-btn {
+  margin-top:23px;
+  text-align: center;
+  padding: 10px 20px 10px 20px;
+  border: solid 1px white;
+  text-transform: uppercase;
+  font-weight:400;
+  color: white;
+  background-color:#d45c54;
+  display: block;
+  font-size: 1rem;
+  letter-spacing: .07em;
 }

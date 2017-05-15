@@ -1,10 +1,5 @@
 import React, { Component } from 'react';
 import { Link} from 'react-router-dom';
-// import Main from './main';
-// import About from './about';
-// import Skills from './skills';
-// import Projects from './projects';
-// import Contact from './contact';
 
 const Header = () => (
       <div>
