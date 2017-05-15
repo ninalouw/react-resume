@@ -5,9 +5,9 @@ import FontIcon from 'material-ui/FontIcon';
 const Skills = () => (
   <div className='skills'>
     <div className="skills-content">
-      <Row className='skills-header'>
-        <Col s={2} m={2} l={2} className='skills-circle'>
-          <h1 className='skills-h1'>Skills</h1>
+      <Row className='page-header'>
+        <Col s={2} m={2} l={2} className='page-circle'>
+          <h1 className='page-h1'>Skills</h1>
         </Col>
       </Row>
       <Row className='skills-h2-row'>

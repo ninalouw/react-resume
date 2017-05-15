@@ -123,8 +123,7 @@ box-shadow: 3px 2px 9px 1px rgba(209, 225, 247, 1);
 }
 
 /*Styling for header sections of subpages*/
-/*Change these names*/
-.skills-header {
+.page-header {
   background-image: linear-gradient(-360deg, #393794, #3089bb);
   width:100%;
   height: 170px;
@@ -138,7 +137,7 @@ box-shadow: 3px 2px 9px 1px rgba(209, 225, 247, 1);
   min-height: 170px;
 }
 
-.skills-circle {
+.page-circle {
   background-color: rgb(0, 188, 212);
   opacity:0.8;
   width:100px;
@@ -156,12 +155,12 @@ box-shadow: 3px 2px 9px 1px rgba(5,11,54,1);
 
 
 @media (max-width: 32em) {
-.skills-header {
+.page-header {
 display: none;
 }
 }
 
-.skills-h1 {
+.page-h1 {
   font-family: 'Playfair Display', serif;
   text-align: center;
   margin-top:36px;

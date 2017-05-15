@@ -4,9 +4,9 @@ import Avatar from 'material-ui/Avatar';
 
 const About = () => (
   <div className='about'>
-    <Row className='skills-header'>
-      <Col s={2} m={2} l={2} className='skills-circle'>
-        <h1 className='skills-h1'>About</h1>
+    <Row className='page-header'>
+      <Col s={2} m={2} l={2} className='page-circle'>
+        <h1 className='page-h1'>About</h1>
       </Col>
     </Row>
 
